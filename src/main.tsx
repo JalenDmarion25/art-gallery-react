@@ -6,7 +6,7 @@ import Location from './pages/Location';
 import './Styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/art-gallery-react/">
   <Routes>
   
   <Route path="/" element={<Home/>}/>
